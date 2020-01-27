@@ -1,0 +1,29 @@
+Could use this regex to check if the word starts with a vowel?
+
+\s[aeiou]+
+
+split phrase by /s
+base case 
+if currWord == phraseArray.length() return 
+if /s[aeiou] (return word + yay)
+
+
+for each loop
+return index of first vowel
+if firstvowelindex =0 then return userWord + yay
+else
+get substring starting at firstvowel index
+get substring 0-firstvowel index
+concat substring a + substring b +"ay"
+
+punctuation
+if word.contains(.,!?) 
+return index of it by search(.,!?)
+if index == word.length -1 then append string with charAt.(word.length()-1)
+also have to take out the old charat... return pigword inside the if statement first substring truncated
+else normal pigword
+
+theres something where you can split the word at regex, then can put the second split part to the end of pig word?
+
+are conditional statements only useful for assigning variables? I tried to use one to print something out if a condition was true but couldn't figure out how
+the four expressions that can take regex as an argument on the string method are SPLIT REPLACEFIRST MATCHES REPLACEALL
